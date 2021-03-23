@@ -1,7 +1,22 @@
 import './order.css';
 
 const Order = (props) => {
-    console.log('huy')
+    
+    const materials = [{
+        name: "Профнастил 400 Р за м2 ",
+        price: 400
+    }, {
+        name: "Модули 500 Р за м2",
+        price: 500
+    },
+    {
+        name: "Бетон 700 Р за м2",
+        price:700 
+    },{
+        name: "Сетка за 200 Р за м2",
+        price: 200
+    }]
+
     return <div className="wrapper">
 
         <div className="h">Заказать забор</div>
@@ -24,10 +39,7 @@ const Order = (props) => {
                 <p className="material">Материал забора</p>
                 <div className="selection">
                     <select className="select">
-                        <option value="400">Профнастил 400 Р за м2   </option>
-                        <option value="500">Модули 500 Р за м2</option>
-                        <option value="700">Бетон 700 Р за м2</option>
-                        <option value="200">Сетка за 200 Р за м2</option>
+                        {materials.map(material => <option value={material.price}>{material.name}</option>)}
                     </select>
                 </div >
                 <label className="label" htmlFor="id1">
