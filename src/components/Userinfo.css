@@ -1,0 +1,129 @@
+
+.wrapper_user{
+    width:40%;
+    height:1300px;
+    border:2px solid white;
+    background:white;
+    margin:0 auto;
+    margin-top:200px;
+  }
+  .wrapper_user_inside{
+    width:70%;
+    height:70%; 
+    margin:0 auto;
+    
+  }
+
+  .back{
+    transition:2s; 
+    font-size:40px;
+    color:#fff;
+  }
+  .back:hover{
+    cursor:pointer;
+    transition:1s;
+    text-decoration:underline;
+  }
+  .span_back{
+    margin-top:5px;
+    margin-right:20px;
+  
+    background:url("/src/images/png/Shape.png")no-repeat;
+    background-size:100% 100%!important;
+    width:80px;
+    height:30px;
+  }
+  .span_back{
+    cursor:pointer;
+  }
+  .wrapper_back{
+    margin-left:800px;
+    display:flex;
+    justify-content: row;
+    border:2px solid red;
+    width:10%;
+    margin-bottom: -200px;
+    margin-top:200px;
+  }
+
+  .main{
+    font-size:60px;
+    text-align:center;
+    margin-top:70px;
+  }
+  .name{
+    font-size:40px;
+    margin-top:30px;
+    margin-left:100px;
+  }
+  .name_input{
+    height:70px;
+    font-size:40px;
+    margin-top:30px;
+    margin-left:100px;
+    outline:none;
+    color:grey;
+    background:linear-gradient(to top,#F8F8F8,#F2F2F2)
+  }
+  .email{
+    font-size:40px;
+    margin-top:30px;
+    margin-left:100px;
+    margin-top:50px;
+  }
+  .email_input{
+    height:70px;
+    font-size:40px;
+    margin-top:30px;
+    margin-left:100px;
+    outline:none;
+    color:grey;
+    background:linear-gradient(to top,#F8F8F8,#F2F2F2)
+  }
+  input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+.telephone{
+  font-size:40px;
+    margin-top:30px;
+    margin-left:100px;
+    margin-top:50px;
+}
+.telephone_input{
+  height:70px;
+  font-size:40px;
+  margin-top:30px;
+  margin-left:100px;
+  outline:none;
+  color:grey;
+  background:linear-gradient(to top,#F8F8F8,#F2F2F2)
+}
+p{
+  margin-left:100px;
+  font-size:40px;
+}
+
+.total_sum{
+  color:#A10031;
+}
+ .blue_span{
+   color:#458AE1;
+ }
+.red{
+  color:#A10031
+}
+.total_material{
+  color:#458AE1;
+}
+.info_submit{
+  background:url("/src/images/png/submit_disabled.png")no-repeat;
+  background-size:100% 100%!important;
+  height:120px;
+  width:420px;
+  color:#fff;
+  font-size:40px;
+  margin-left:100px;
+}

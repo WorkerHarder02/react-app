@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Approve from "./components/Approve";
 import Order from "./components/Order";
+import UserInfo from "./components/UserInfo";
 
 function App() {
   const [state, setState] = useState({
@@ -8,12 +9,15 @@ function App() {
     email: "",
     phone: ""
   })
-
+  const [page]
   return (
-    <div className="App">
-      <Approve price={state.price} />
-      <Order setState={setState} />
-    </div>
+
+
+    <><Order></Order>
+      <UserInfo></UserInfo>
+      <Approve></Approve>
+    </>
+
   );
 }
 

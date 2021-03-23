@@ -1,0 +1,158 @@
+
+.h{
+    padding-top:30px;
+    font-size:70px; 
+    text-align:center;
+   
+}
+.wrapper{
+    width:40%;
+    height:1100px;
+    border:2px solid white;
+    background:white;
+    margin:0 auto;
+    margin-top:200px;
+  }
+  .wrapper_inside{
+    width:70%;
+    height:20%; 
+    margin:0 auto;
+   
+  }
+
+.title_length{
+    width:30%;
+    
+    margin-left:120px;
+    font-size:35px; 
+}
+.input_length{
+    display:flex;
+    justify-content: row;
+    
+}
+.input_first{
+    color:#838383;
+    padding-left:5px;
+    padding-right:5px;
+     border:2px solid #D7D7D7;
+    width:70%;
+    height:60px;
+    font-size:30px;
+    outline:none;
+    background:linear-gradient(to top,#F8F8F8,#F2F2F2)
+}
+.length_meter{
+    margin-left:30px;
+    margin-top:12px;
+    font-size:30px;
+}
+.height_title{
+    font-size:35px;
+     margin-left:0px;
+      
+    width:35%;
+
+}
+ 
+.input_height{
+    display:flex;
+    justify-content: row;
+}
+.input_second{
+    color:#838383;
+    padding-left:5px;
+    padding-right:5px;
+    border:2px solid #D7D7D7;
+    width:70%;
+    height:60px;
+    font-size:30px;
+    outline:none;
+    background:linear-gradient( to top,#F8F8F8,#F2F2F2)
+}
+.height_meter{
+    margin-left:30px;
+    margin-top:12px;
+    font-size:30px;
+}
+.material{
+    font-size:35px;
+    margin-left:0px;
+     
+   width:40%;
+    margin-top:22px;
+    font-size:35px;
+}
+.selection{
+    margin-bottom:70px;
+    color:#838383;
+    padding-left:5px;
+    padding-right:5px;
+    width:90%;
+    height:80px;
+    font-size:30px;
+    margin-top:50px;
+     
+}
+.select{
+    font-size:30px;
+    outline:none;
+    height:100%;
+    width:100%;
+}
+    
+
+.checkbox{
+    display:none;
+}
+.fake{
+    margin-left:10px;
+    position:relative;
+    display:inline-block;
+    width:20px;
+    height:20px;
+    border:1px solid black;
+} 
+.fake:before{
+    content:"";
+    position:absolute;
+    width:10px;
+    height:10px;
+    display:block;
+    background:url('/src/images/png/check.png')no-repeat;
+    background-size:100% 100%!important;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+    transition:1s;
+}
+
+.checkbox:checked+.fake::before{
+    opacity:1;
+}
+.text{
+    margin-left:20px;
+    font-size:30px;
+}
+.sum_wrapper{
+    display:flex;
+    justify-content: row;
+    font-size:45px;
+}
+.red{
+    color:#A10031;
+}
+
+.next{
+    
+    text-align:center;      
+    color:#fff;
+    font-size:30px;
+    border:none;
+    height:90px;
+    width:250px;
+    outline:none;
+    background:url("/src/images/png/next_disabled.png")no-repeat;
+    background-size:100% 100%!important;
+}

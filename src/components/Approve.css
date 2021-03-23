@@ -1,0 +1,51 @@
+.wrapper_approve{
+    width:40%;
+    height:300px;
+    border:2px solid white;
+    background:white;
+    margin:0 auto;
+    margin-top:300px;
+  }
+  .wrapper_inside{
+    width:70%;
+    height:90%; 
+    margin:0 auto;
+ 
+  }
+
+  .back{
+    transition:2s; 
+    font-size:40px;
+    color:#fff;
+  }
+  .close{
+      color:#fff;
+      transition:5s;
+      padding-top:200px;
+      margin-bottom:-200px;
+       margin-left:1635px;
+      font-size:35px;
+  }
+  .close{
+      cursor:pointer;
+  }
+  .close:hover{
+     
+    text-decoration:underline;
+  }
+  .blue_span{
+      color:#458AE1;
+
+  }
+  .order_number{
+      color:#458AE1;
+  }
+  p{
+      text-align:center;
+  }
+  .total_email{
+    color:#458AE1;
+  }
+  .total_phone{
+    color:#458AE1;
+  }
